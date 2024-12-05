@@ -1,0 +1,6 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* 캔버스가 화면을 꽉 채우도록 설정 */
+  }
