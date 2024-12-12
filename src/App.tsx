@@ -8,7 +8,7 @@ const App: React.FC = () => (
   <div style={{ 
     width: '100vw',
     height: '100vh',
-    backgroundColor: '#000000',
+    background: 'linear-gradient(rgb(6, 2, 22) 0%,rgb(14, 4, 26) 65%,rgb(8, 22, 45) 100%)',
     margin: 0,
     padding: 0,
     overflow: 'hidden'        
