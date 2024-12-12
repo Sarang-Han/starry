@@ -18,8 +18,6 @@ interface ZodiacModelProps {
 }
 
 const InfoBox: React.FC<{ name: string; date: string; description?: string; onClose: () => void }> = ({
-  name,
-  date,
   description,
   onClose
 }) => (
@@ -31,7 +29,7 @@ const InfoBox: React.FC<{ name: string; date: string; description?: string; onCl
   >
     <Html
       center
-      position={[0.3, 0, 0]}
+      position={[-2.2, -2, -4]}
       style={{
         width: 'auto',
         height: 'auto',
@@ -60,11 +58,9 @@ const InfoBox: React.FC<{ name: string; date: string; description?: string; onCl
             cursor: 'pointer'
           }}
         >
-          ×
+        X
         </button>
-        <h3 style={{ margin: '0 0 10px 0' }}>{name}</h3>
-        <p style={{ margin: '5px 0' }}>{date}</p>
-        {description && <p style={{ margin: '10px 0' }}>{description}</p>}
+        {description && <p style={{ margin: '5px 0' }}>{description}</p>}
       </div>
     </Html>
   </Billboard>
@@ -94,7 +90,7 @@ export const ZodiacModel: React.FC<ZodiacModelProps> = ({
     metalness: 0.6,
     transparent: true,
     opacity: 0.6,
-    color: '#fffff',
+    color: '#ffffff',
     emissive: '#2d68d6',
     emissiveIntensity: 0.4,
   }), []);

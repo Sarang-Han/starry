@@ -40,7 +40,7 @@ const ModelView: React.FC = () => {
       <Canvas
         camera={{
           position: [0, 1, 0],
-          fov: 23,
+          fov: 30,
           near: 0.1,
           far: 1000
         }}
