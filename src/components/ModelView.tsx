@@ -29,6 +29,7 @@ const Scene: React.FC<SceneProps> = ({
         enablePan={false}
         minPolarAngle={Math.PI / 2}
         maxPolarAngle={Math.PI / 2}
+        rotateSpeed={0.3}
       />
     </>
   );
