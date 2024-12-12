@@ -4,14 +4,14 @@ import { OrbitControls, useGLTF } from '@react-three/drei';
 import { GLTF } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import * as THREE from 'three';
 
-// glb 파일의 타입을 확장합니다.
+// glb 파일 타입 확장
 type GLTFResult = GLTF & {
   nodes: Record<string, THREE.Object3D>;
   materials: Record<string, THREE.Material>;
 };
 
 const Model: React.FC = () => {
-  const { scene } = useGLTF('/models/Cancer.glb') as unknown as GLTFResult;
+  const { scene } = useGLTF('/models/Virgo.glb') as unknown as GLTFResult;
   return <primitive object={scene} scale={1.5} />;
 };
 
