@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/global.css';
-import ModelViewer from './components/ModelViewer';
+import ModelView from './components/ModelView';
 import { StarField } from './components/StarField';
 import AudioPlayer from './components/AudioPlayer';
 
@@ -14,7 +14,7 @@ const App: React.FC = () => (
     overflow: 'hidden'        
   }}>
     <StarField />
-    <ModelViewer />
+    <ModelView />
     <AudioPlayer />
   </div>
 );
