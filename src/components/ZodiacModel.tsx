@@ -19,7 +19,6 @@ interface ZodiacModelProps {
 
 const InfoBox: React.FC<{ name: string; date: string; description?: string; onClose: () => void }> = ({
   description,
-  onClose
 }) => (
   <Billboard
     follow={true}
@@ -29,38 +28,31 @@ const InfoBox: React.FC<{ name: string; date: string; description?: string; onCl
   >
     <Html
       center
-      position={[-2.2, -2, -4]}
+      position={[0, -1.8, 0]}
       style={{
         width: 'auto',
         height: 'auto',
-        transform: 'translate3d(50%, 0, 0)'
       }}
     >
       <div style={{
         background: 'rgba(187, 226, 255, 0.1)',
-        padding: '20px',
+        padding: '15px',
         borderRadius: '10px',
         color: 'white',
-        width: '200px',
-        textAlign: 'center',
+        width: '320px',
+        textAlign: 'start',
         backdropFilter: 'blur(5px)',
         border: '1px solid rgba(255, 255, 255, 0.2)',
+        fontSize: '13px',
       }}>
-        <button
-          onClick={onClose}
-          style={{
-            position: 'absolute',
-            right: '10px',
-            top: '10px',
-            background: 'none',
-            border: 'none',
-            color: 'white',
-            cursor: 'pointer'
-          }}
-        >
-        X
-        </button>
-        {description && <p style={{ margin: '5px 0' }}>{description}</p>}
+        {description && (
+          <p style={{ 
+            margin: '5px 0',
+            whiteSpace: 'pre-line' // 줄바꿈 처리를 위한 속성 추가
+          }}>
+            {description}
+          </p>
+        )}
       </div>
     </Html>
   </Billboard>
