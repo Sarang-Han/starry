@@ -75,12 +75,12 @@ export const ZodiacModel: React.FC<ZodiacModelProps> = ({
   description
 }) => {
   const modelRef = useRef<THREE.Group>(null);
-  const [hovered, setHovered] = useState(false);
+  // hovered 상태 제거
   const [showInfo, setShowInfo] = useState(false);
   const gltf = useGLTF(modelPath);
 
   const { modelScale } = useSpring<{ modelScale: [number, number, number] }>({
-    modelScale: hovered ? [scale * 1.1, scale * 1.1, scale * 1.1] : [scale, scale, scale],
+    modelScale: showInfo ? [scale * 1.1, scale * 1.1, scale * 1.1] : [scale, scale, scale],
     config: { mass: 1, tension: 170, friction: 10 }
   });
 
@@ -114,7 +114,7 @@ export const ZodiacModel: React.FC<ZodiacModelProps> = ({
   const handleClick = (event: ThreeEvent<MouseEvent>) => {
     event.stopPropagation();
     setShowInfo(!showInfo);
-  };
+  }
 
   return (
     <>
@@ -123,8 +123,6 @@ export const ZodiacModel: React.FC<ZodiacModelProps> = ({
         position={position}
         scale={modelScale}
         onClick={handleClick}
-        onPointerOver={() => setHovered(true)}
-        onPointerOut={() => setHovered(false)}
       >
         <primitive object={gltf.scene} />
         {showInfo && (
