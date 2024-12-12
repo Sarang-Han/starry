@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/global.css';
 import ModelViewer from './components/ModelViewer';
 import { StarField } from './components/StarField';
+import AudioPlayer from './components/AudioPlayer';
 
 const App: React.FC = () => (
   <div style={{ 
@@ -13,7 +14,8 @@ const App: React.FC = () => (
     overflow: 'hidden'        
   }}>
     <StarField />
-    <ModelViewer />  
+    <ModelViewer />
+    <AudioPlayer />
   </div>
 );
 
