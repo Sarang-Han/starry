@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import Confetti from 'react-confetti';
 
 import './FindZodiac.css';
 
@@ -118,10 +119,16 @@ const FindZodiac: React.FC = () => {
       )}
 
       {showResultModal && (
+        <>
+        <Confetti
+          numberOfPieces={30}
+          gravity={0.05}
+        />
         <div className="modal result-modal">
           <h2>당신의 별자리는 {constellation}입니다</h2>
           <button className="modal-close-button" onClick={() => setShowResultModal(false)}>닫기</button>
         </div>
+        </>
       )}
     </>
   );
