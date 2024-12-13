@@ -1,0 +1,100 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(237, 249, 255, 0.188);
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  z-index: 1000;
+  min-width: 300px;
+  text-align: center;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.select-container select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.select-container select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-buttons button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.modal-buttons button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.search-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 12px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+  color: white;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.search-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.search-button:active {
+  transform: scale(0.95);
+}
+
+.result-modal button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 20px;
+}
+
+.result-modal button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.result-modal h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
