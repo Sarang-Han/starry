@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons';
 
 import './FindZodiac.css';
 
 const ZODIAC_EMOJIS = {
   aries: '🐏',
-  taurus: '🐂',
+  taurus: '🐃',
   gemini: '👯',
   cancer: '🦀',
   leo: '🦁',
@@ -143,7 +143,7 @@ const FindZodiac: React.FC = () => {
         onClick={() => setShowBirthModal(true)}
         aria-label="별자리 찾기"
       >
-        <FontAwesomeIcon icon={faSearch} />
+        <FontAwesomeIcon icon={faWandMagicSparkles} />
       </button>
 
       {showBirthModal && (
