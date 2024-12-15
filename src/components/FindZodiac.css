@@ -95,6 +95,23 @@
 }
 
 .result-modal h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1.5rem;
+}
+
+.zodiac-emoji {
+  font-size: 90px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.fortune-content {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.lucky-action {
+  margin-top: 15px;
+  color: #7dff45;
 }
