@@ -35,17 +35,18 @@ Starry-Scope는 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 
 
 - **Frontend**: React 18, TypeScript
 - **3D 렌더링**: Three.js, React Three Fiber, React Spring
-- **스타일링**: CSS Modules, Font Awesome 아이콘
 - **개발 도구**: Vite, ESLint
 <br><br>
 
 ## 3D 모델
 
-이 프로젝트에 사용된 모든 3D 별자리 모델은 [Meshy AI](https://meshy.ai/)를 사용하여 생성되었습니다.<br>
-예시 모델은 [Sketchfab](https://skfb.ly/psyGt)에서 확인할 수 있습니다.
-
 <img src="https://github.com/user-attachments/assets/3d5cf938-39e6-4bee-b400-5349702f37fa" width="500" />
+<br><br>
 
+이 프로젝트에 사용된 모든 3D 별자리 모델은 [Meshy AI](https://meshy.ai/)를 사용하여 생성되었습니다.<br>
+예시 모델은 [Sketchfab](https://skfb.ly/psyGt)에서 확인할 수 있습니다.<br>
+
+<br>
 
 ## <a name="structure"></a>📁 프로젝트 구조
 
