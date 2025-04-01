@@ -21,15 +21,17 @@
 
 ## 소개
 
-Starry-Scope는 아름다운 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 수 있는 웹 애플리케이션입니다. 별이 빛나는 우주 배경 속에서 자신의 별자리를 찾고 각 별자리의 특성과 운세를 확인할 수 있습니다.
+Starry-Scope는 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 수 있는 웹 애플리케이션입니다.<br>
+별이 빛나는 우주 배경 속에서 자신의 별자리를 찾고 각 별자리의 특성과 운세를 확인할 수 있습니다.
+<br><br>
 
 ## <a name="features"></a>✨ 기능
 
-- **3D 별자리 모델**: 12개의 별자리를 3D로 시각화하여 인터랙티브한 탐색 경험 제공
-- **별자리 정보**: 각 별자리의 특성, 날짜 범위 및 상세 설명 제공
-- **별자리 찾기**: 생일을 입력하여 자신의 별자리 찾기 기능
-- **개인 운세**: 별자리에 따른 운세 및 행운의 행동 추천
-- **몰입형 환경**: 아름다운 별이 빛나는 배경과 함께 우주 분위기의 음악 제공
+- **3D 별자리 모델 뷰 / 별자리 정보**
+- **내 생일로 별자리 찾기**
+- **오늘의 별자리 운세**
+- **배경음악 재생 기능**
+<br><br>
 
 ## <a name="tech-stack"></a>🛠️ 기술 스택
 
@@ -37,11 +39,14 @@ Starry-Scope는 아름다운 인터랙티브 3D 환경에서 12개의 별자리�
 - **3D 렌더링**: Three.js, React Three Fiber, React Spring
 - **스타일링**: CSS Modules, Font Awesome 아이콘
 - **개발 도구**: Vite, ESLint
+<br><br>
 
 ## 3D 모델
 
 이 프로젝트에 사용된 모든 3D 별자리 모델은 [Meshy AI](https://meshy.ai/)를 사용하여 생성되었습니다.
-<div class="sketchfab-embed-wrapper"> <iframe title="3D Constellation - Virgo" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/47222d940e2c459888959ffcce213030/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/3d-constellation-virgo-47222d940e2c459888959ffcce213030?utm_medium=embed&utm_campaign=share-popup&utm_content=47222d940e2c459888959ffcce213030" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 3D Constellation - Virgo </a> by <a href="https://sketchfab.com/hangpfm0518?utm_medium=embed&utm_campaign=share-popup&utm_content=47222d940e2c459888959ffcce213030" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Astralfinance </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=47222d940e2c459888959ffcce213030" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
+<iframe title="3D Constellation - Virgo" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/47222d940e2c459888959ffcce213030/embed"> </iframe>
+
 
 ## <a name="structure"></a>📁 프로젝트 구조
 
@@ -82,13 +87,7 @@ npm install
 # 개발 서버 실행
 npm run dev
 ```
-
-## 배포
-
-이 프로젝트는 **Vercel**로 배포되었습니다:<br>
-[https://starry-scope.vercel.app](https://starry-scope.vercel.app)
-
----
+<br><br>
 
 <div align="center">
   <p>Made with ❤️ by <a href="https://github.com/yourusername">Sarang-Han</a></p>
