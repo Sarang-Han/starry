@@ -11,17 +11,15 @@
   [![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-8.17.10-44a4bc?style=flat-square)](https://github.com/pmndrs/react-three-fiber)
   
   <p>
-    <a href="https://starry-scope.vercel.app">🌟 Live Demo</a> •
-    <a href="#features">✨ 기능</a> •
-    <a href="#tech-stack">🛠️ 기술 스택</a> •
-    <a href="#structure">📁 프로젝트 구조</a>
+    <a href="https://starry-scope.vercel.app">🌟 Live Demo</a>
   </p>
 
 </div>
 
 ## 소개
 
-Starry-Scope는 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 수 있는 Web 애플리케이션입니다.<br>
+Starry-Scope는 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 수 있는 Web 애플리케이션입니다.
+<br><br>
 
 ## <a name="features"></a>✨ 기능
 
