@@ -21,8 +21,8 @@
 
 ## 소개
 
-Starry-Scope는 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 수 있는 웹 애플리케이션입니다.<br>
-별이 빛나는 우주 배경 속에서 자신의 별자리를 찾고 각 별자리의 특성과 운세를 확인할 수 있습니다.
+Starry-Scope는 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 수 있는 Web 애플리케이션입니다.
+
 <br><br>
 
 ## <a name="features"></a>✨ 기능
@@ -45,7 +45,9 @@ Starry-Scope는 인터랙티브 3D 환경에서 12개의 별자리를 탐색할 
 
 이 프로젝트에 사용된 모든 3D 별자리 모델은 [Meshy AI](https://meshy.ai/)를 사용하여 생성되었습니다.
 
-<iframe title="3D Constellation - Virgo" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/47222d940e2c459888959ffcce213030/embed"> </iframe>
+![modeling](https://github.com/user-attachments/assets/3d5cf938-39e6-4bee-b400-5349702f37fa)
+
+[Sketchfab](https://skfb.ly/psyGt)
 
 
 ## <a name="structure"></a>📁 프로젝트 구조
