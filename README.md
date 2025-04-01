@@ -89,6 +89,6 @@ npm run dev
 <br>
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/yourusername">Sarang-Han</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/Sarang-Han">Sarang-Han</a></p>
   <p>2024 Starry-Scope</p>
 </div>
